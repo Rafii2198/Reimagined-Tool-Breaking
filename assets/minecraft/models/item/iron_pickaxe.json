@@ -1,0 +1,29 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "item/iron_pickaxe"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "damaged": 1,
+        "damage": 0.8
+      },
+      "model": "item/iron/pickaxe/medium"
+    },
+    {
+      "predicate": {
+        "damaged": 1,
+        "damage": 0.9
+      },
+      "model": "item/iron/pickaxe/low"
+    },
+    {
+      "predicate": {
+        "damaged": 1,
+        "damage": 0.95
+      },
+      "model": "item/iron/pickaxe/critical"
+    }
+  ]
+}
